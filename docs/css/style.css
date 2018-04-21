@@ -1,0 +1,24 @@
+s@charset "utf-8";
+/* CSS Document */
+
+#first-l-col,
+#first-r-col {
+	height: 1em;
+}
+#first-l-col {}
+#first-r-col {}
+
+#second-l-col {}
+#second-r-col {}
+
+#third-l-col {}
+#third-r-col {}
+
+#fourd-col {}
+
+.tr-post-info {
+	
+}
+.tr-post-info:hover {
+	cursor: pointer;
+}
