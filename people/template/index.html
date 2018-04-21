@@ -1,0 +1,92 @@
+<DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html"; charset="utf-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="./style.css">
+    <script type="application/javascript" src="./jquery-1.11.3.min.js"></script>
+    <script type="application/javascript" src="./core-0.0.1.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    
+    <div class="header">
+        <div class="headerLogo">
+            <h1>Название сайта</h1>
+        </div>
+        <div class="headerProfile"></div>
+        
+        <div class="clearfix"></div>
+    </div>
+    <div class="body">
+        <div class="bodyMenu">
+            <a class="bodyMenuA active" id="aBaseFunc">Базовые функции</a>
+            <a class="bodyMenuA" id="aProFunc">Продвинутые функции</a>
+            <a class="bodyMenuA" id="aVIPFunc">VIP-услуги</a>
+            
+            <div class="clearfix"></div>
+        </div>
+        <div class="bodyContent">
+            <div id="divBaseFunc">
+                <a class="aFunc" id="aAddNewPeople">Добавить новую личность</a>
+                <a class="aFunc" id="aSearchFIO">Поиск личности по Фамилии\Имени\Отчеству</a>
+                <a class="aFunc" id="aSearchEmail">Поиск личности по E-mail</a>
+                <a class="aFunc" id="aSearchIDinSS">Поиск личности по её\его ID в социальных сетях</a>
+            </div>
+            <div id="divProFunc">
+                <a class="aFunc" id="aSearchPhoneNumber">Поиск личности по номеру телефона</a>
+                <a class="aFunc" id="aMultipleSearch">Комбинированный поиск личности</a>
+                <a class="aFunc" id="aSearchMe">Есть ли я?</a>
+            </div>
+            <div id="divVIPFunc">
+                <a class="aFunc" id="aHiddenPeople">Скрыть личность ото всех</a>
+            </div>
+            <div id="divAddNewPeople">
+                <h1>Добавление новой личности</h1>
+                
+                <table>
+                    <tr>
+                        <th>Имя:</th>
+                        <td><input type="text" name="firstName"></td>
+                    </tr>
+                    <tr>
+                        <th>Фамилия:</th>
+                        <td><input type="text" name="lastName"></td>
+                    </tr>
+                    <tr>
+                        <th>Отчество:</th>
+                        <td><input type="text" name="fatherName"></td>
+                    </tr>
+                    <tr>
+                        <th>Пол:</th>
+                        <td>Мужской<input type="radio" name="sex" value="M">&nbsp;Женский<input type="radio" name="sex" value="F"></td>
+                    </tr>
+                    <tr>
+                        <th>Дата рождения:</th>
+                        <td><input type="date" name="birthDay"></td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td><button id="sendData">Отправить</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footerColoumn">
+            <a class="footerA" id="aLicense">Лицензионное соглашение</a>
+            <a class="footerA" id="aRules">Правила пользования</a>
+            <a class="footerA" id="aConfidense">Политика конфеденциальности</a>
+            <a class="footerA" id="aFAQ">Вопросы и ответы</a>
+        </div>
+        <div class="footerColoumn">
+            <p class="footerCopy">Copyright &copy; <a id="aHome">EtotSait.ru</a>, 2017</p>
+        </div>
+        <div class="footerColoumn"></div>
+        <div class="clearfix"></div>
+    </div>
+    
+</div>
+</body>
+</html>

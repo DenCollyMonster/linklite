@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.clearfix {
+    clear: both;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    position: relative;
+    left: -9999px;
+}
+
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+    //outline: 1px solid #000;
+}
+
+.header, .footer {
+    width: 100%;
+    height: 100px;
+    background-color: #DC143C;
+    color: #00FFFF;
+}
+.body {
+    width: 100%;
+    font-size: 1em;
+    color: #333;
+}
+.footer {}
+
+
+
+.headerLogo {
+    float: left;
+    width: 70%;
+}
+.headerProfile {
+    float: left;
+    width: 30%;
+}
+
+.bodyMenu {
+    width: 100%;
+    margin: 0.6em 0;
+}
+.bodyContent {
+    width: calc( 100% - 1.2em );
+    background-color: #00FFFF;
+    margin: 0.6em 0;
+    padding: 0.6em;
+}
+
+.footerColoumn {
+    float: left;
+    width: 33.33333333%;
+}
+
+
+
+.headerLogo h1 {}
+
+.bodyMenuA {
+    display: block;
+    float: left;
+    width: 33.33333333%;
+    text-align: center;
+    background-color: #DC143C;
+    color: #00FFFF;
+    padding: 0.2em 0;
+}
+.bodyMenuA:hover {
+    background-color: #00FFFF;
+    color: #333;
+    cursor: pointer;
+}
+.bodyMenuA.active {
+    background-color: #00FFFF;
+    color: #333;
+}
+
+.aFunc {
+    display: block;
+    margin: 0.4em;
+    margin-left: 0.6em;
+}
+.aFunc:hover {
+    cursor: pointer;
+    margin-left: 0.8em;
+    color: #00C5C5;
+}
+
+.footerA {
+    display: block;
+    font-size: 12px;
+    margin: 0.4em;
+    margin-left: 0.6em;
+}
+.footerA:hover {
+    cursor: pointer;
+    color: #00C5C5;
+    margin-left: 0.8em;
+}
+.footerCopy {
+    font-size: 12px;
+}

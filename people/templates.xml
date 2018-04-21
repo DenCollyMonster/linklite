@@ -1,0 +1,7 @@
+<error>
+    <error_id></error_id>
+    <error_messege></error_messege>
+    <error_file></error_file>
+    <error_line></error_line>
+    <error_time></error_time>
+</error>

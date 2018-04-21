@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+.logo.navbar-brand {
+	padding: 15px;
+	width: 32px;
+	background-image: url(../images/logo_100.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+.logo.navbar-brand:hover {
+	background-image: url(../images/logo_hover_100.png);
+}
